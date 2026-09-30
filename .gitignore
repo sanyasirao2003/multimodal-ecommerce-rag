@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# GitHub 100MB File Size Limits & Large Precomputed Embeddings/Indices
+*.bin
+*.pkl
+data/processed/*.bin
+data/processed/*.pkl
+data/processed/text_embeddings.pkl
+data/processed/image_embeddings.pkl
+data/processed/faiss_index.bin
+data/processed/image_faiss_index.bin
+data/processed/products_backup.csv
+data/processed/products_clean_v1.csv
+New folder/
+
+# Large Datasets and Images
+data/images/
+data/raw/final_products_enhanced.csv
+data/raw/images_ordered.csv
+data/raw/final_products.csv
+
+# Temporary / duplicate files
+frontend/*(1)*
+Untitled*.ipynb
+notebooks/Untitled*.ipynb
+
+# OS Generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+data/raw/final_products_enhanced.csv
+data/raw/final_products.csv
+data/raw/images_ordered.csv
